@@ -1,0 +1,224 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #560445;
+}
+.top-right-photo {
+    position:absolute;
+    top: 30px; /* Adjust to position from the top */
+    right: 200px; /* Adjust to position from the right */
+}
+
+.top-right-photo img {
+    width: 200px; /* Set the desired width of the image */
+    height: 200px; /* Set the desired height of the image */
+    border-radius: 60%; /* This makes the image circular */
+    object-fit:cover; /* Ensures the image fits within the circle */
+    border: 2px solid #ddd; /* Optional: Adds a border around the image */
+    box-shadow: 0 0 20px rgba(227, 74, 227, 0.925);
+    transition: transform 0.3s ease;
+}
+.top-right-photo img:hover{
+    transform: scale(1.05); /* Zoom in by 20% */
+    background-color: rgb(11, 2, 38);
+}
+.resume {
+    width: 95%;
+    margin: 20px auto;
+    background-color: hsla(0, 0%, 2%, 0.997);
+    color: rgb(199, 71, 228);
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(196, 187, 10, 0.925);
+    border-radius: 8px;
+}
+
+header {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+header h1 {
+    font-size: 32px;
+    margin: 0;
+}
+header a{
+    color: #f85252;
+}
+
+header p {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+section {
+    margin: 20px 0;
+}
+
+section h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #13cd1c;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+}
+
+.job {
+    margin-bottom: 20px;
+}
+
+.job h3 {
+    font-size: 18px;
+    margin: 0;
+}
+
+.job p {
+    font-size: 16px;
+    margin: 5px 0;
+    color: #c1e10d;
+}
+
+.job ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.job ul li {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+/*.skills ul {
+    list-style-type: none;
+    padding: 0;
+}*/
+
+.skills2 .skills ul li {
+    display: inline-block;
+    margin-right: 10px;
+    color: black;
+    background-color: #ddee8d;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+.skills2 .skills3 ul li {
+    display: inline-block;
+    margin-right: 10px;
+    color: black;
+    background-color: #ddee8d;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+.skills2 .skills4 ul li {
+    display: inline-block;
+    margin-right: 10px;
+    color: black;
+    background-color: #ddee8d;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+.skills2 .skills5 ul li {
+    display: inline-block;
+    margin-right: 10px;
+    color: black;
+    background-color: #ddee8d;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+.skills2 .skills6 ul li {
+    display: inline-block;
+    margin-right: 10px;
+    color: black;
+    background-color: #ddee8d;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+.resume .summary1{
+    background-color: rgba(35, 35, 43, 0.508);
+    padding: 20px;
+    color: aqua;
+    /*box-shadow: 0 0 10px rgba(229, 106, 106, 0.925);*/
+    border-radius: 8px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+.resume .experience1{
+    background-color:rgba(35, 35, 43, 0.508);
+    padding: 20px;
+    color: aqua;
+    /*box-shadow: 0 0 10px rgba(5, 233, 240, 0.925);*/
+    border-radius: 8px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+.resume .education1{
+    background-color: rgba(35, 35, 43, 0.508);
+    padding: 20px;
+    color: aqua;
+    /*box-shadow: 0 0 10px rgba(5, 233, 240, 0.925);*/
+    border-radius: 8px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+.resume .skills1{
+    background-color: rgba(35, 35, 43, 0.508);
+    padding: 20px;
+    color: aqua;
+    /*box-shadow: 0 0 10px rgba(5, 233, 240, 0.925);*/
+    border-radius: 8px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+.resume .summary1:hover{
+    transform: scale(1.05); /* Zoom in by 20% */
+    background-color: rgb(11, 2, 38);
+    box-shadow: 0 0 10px rgba(225, 22, 232, 0.925);
+}
+.resume .experience1:hover{
+    transform: scale(1.05); /* Zoom in by 20% */
+    background-color: rgb(11, 2, 38);
+    box-shadow: 0 0 10px rgba(225, 22, 232, 0.925);
+}
+.resume .education1:hover{
+    transform: scale(1.05); /* Zoom in by 20% */
+    background-color: rgb(11, 2, 38);
+    box-shadow: 0 0 10px rgba(225, 22, 232, 0.925);
+}
+.resume .skills1:hover{
+    transform: scale(1.05); /* Zoom in by 20% */
+    background-color: rgb(11, 2, 38);
+    box-shadow: 0 0 10px rgba(225, 22, 232, 0.925);
+}
+
+h1{
+    color: #100f0f;
+    font-family: 'Arial', sans-serif; /* Font style */
+    font-size: 28px; /* Font size */
+    /*color: #333;  Text color */
+    text-align: center; /* Center the text */
+    background-color: rgb(67, 117, 120); /* Background color */
+    padding: 10px 20px; /* Padding around the text */
+    border-radius: 8px; /* Rounded corners */
+    text-transform: uppercase; /* Make text uppercase */
+    letter-spacing: 2px; /* Add space between letters */
+    box-shadow: 0px 0px 10px rgba(49, 233, 62, 0.1); /* Add a shadow */
+    margin-bottom: 20px; /* Space below the header */
+    text-shadow: 0px 0px 6px rgba(240, 234, 239, 0.973); /* Adds shadow effect */
+}
+h3{
+    color: chartreuse;
+}
+.resume .name{
+    background-color: #23232b82;
+    padding: 20px;
+    width:50%;
+    /*box-shadow: 0 0 10px rgba(5, 233, 240, 0.925);*/
+    border-radius: 8px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+.resume .name:hover{
+    transform: scale(1.03); /* Zoom in by 20% */
+    background-color: rgb(11, 2, 38);
+    box-shadow: 0 0 10px rgba(5, 233, 240, 0.925);
+}
